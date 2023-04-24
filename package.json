@@ -1,0 +1,40 @@
+{
+  "name": "unserialize_php_session",
+  "version": "1.0.0",
+  "description": "For unserialize php serialize session",
+  "main": "unserialize_php_session.js",
+  "files": [
+    "unserialize_php_session.js"
+  ],
+  "scripts": {
+    "test": "mocha --covignore .covignore test/",
+    "lint": "eslint --fix .",
+    "cover": "nyc mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shantoislam6/unserialize_php_session.git"
+  },
+  "keywords": [
+    "php session",
+    "redis",
+    "unserialize",
+    "unserializer",
+    "serialize"
+  ],
+  "author": "Shanto Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shantoislam6/unserialize_php_session/issues"
+  },
+  "homepage": "https://github.com/shantoislam6/unserialize_php_session#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "coveralls": "^3.1.1",
+    "mocha": "^9.1.3",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^15.1.0"
+  }
+}

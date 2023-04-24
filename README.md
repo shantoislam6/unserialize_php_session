@@ -9,16 +9,16 @@ npm i unserialize_php_session
 ```
 or
 ```sh
-yarn add unserializer
+yarn add unserialize_php_session
 ```
 or
 ```sh
-pnpm i unserializer
+pnpm i unserialize_php_session
 ```
 
 Alternatively, you can include the unserializer.js file directly in your HTML:
 ```html
-<script src="path/to/unserializer.js"></script>
+<script src="path/to/unserialize_php_session.js"></script>
 ```
 
 ## Test

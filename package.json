@@ -1,6 +1,6 @@
 {
   "name": "unserialize_php_session",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "For unserialize php serialize session",
   "main": "unserialize_php_session.js",
   "files": [

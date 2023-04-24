@@ -16,7 +16,7 @@ or
 pnpm i unserialize_php_session
 ```
 
-Alternatively, you can include the unserializer.js file directly in your HTML:
+Alternatively, you can include the unserialize_php_session.js file directly in your HTML:
 ```html
 <script src="path/to/unserialize_php_session.js"></script>
 ```

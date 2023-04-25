@@ -65,7 +65,7 @@ Decodes serialized PHP data and returns a JavaScript object.
 
 ## Contributing
 
-####Pull requests and bug reports are welcome! If you'd like to contribute, please follow these guidelines:
+#### Pull requests and bug reports are welcome! If you'd like to contribute, please follow these guidelines:
 
  ##### 1. Fork the repository.
  ##### 2. Create a new branch for your changes.
